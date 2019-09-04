@@ -6,7 +6,7 @@ Mainly, it has only two method: to activate and to deactivate swift support in t
 var path = require('path');
 var fs = require('fs');
 var strFormat = require('util').format;
-var xcode = reauire('xcode');
+var xcode = require('xcode');
 var COMMENT_KEY = /_comment$/;
 var WKWEBVIEW_PLUGIN_NAME = 'cordova-plugin-wkwebview-engine';
 var WKWEBVIEW_MACRO = 'WK_WEBVIEW_ENGINE_IS_USED';
