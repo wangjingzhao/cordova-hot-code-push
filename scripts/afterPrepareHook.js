@@ -131,6 +131,7 @@ function prepareWithCustomBuildOption(ctx, optionName, chcpXmlOptions) {
 
   var buildConfig = chcpBuildOptions.getBuildConfigurationByName(ctx, optionName);
   if (buildConfig == null) {
+      console.log('Build configuration for "' + optionName + '" not found in chcp.options. Ignoring it.');
     console.warn('Build configuration for "' + optionName + '" not found in chcp.options. Ignoring it.');
     return false;
   }

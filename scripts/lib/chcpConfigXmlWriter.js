@@ -124,7 +124,8 @@ function injectOptions(options) {
     // read data from config.xml
     var configData = xmlHelper.readXmlAsJson(configXmlFilePath);
     if (configData == null) {
-      console.warn('Configuration file ' + configXmlFilePath + ' not found');
+        console.log('Configuration file ' + configXmlFilePath + ' not found');
+        console.warn('Configuration file ' + configXmlFilePath + ' not found');
       return;
     }
 
