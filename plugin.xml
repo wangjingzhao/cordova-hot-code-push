@@ -11,8 +11,8 @@
   <engines>
     <engine name="cordova-ios" platform="ios" version=">=3.8"></engine>
     <engine name="cordova-android" platform="android" version=">=4"></engine>
-    <engine name="cordova-plugman" version=">=4.2.0"></engine>
-    <engine name="cordova-node-xcode" version=">=2.0.0"></engine>
+    <!--<engine name="cordova-plugman" version=">=4.2.0"></engine>-->
+    <!--<engine name="cordova-node-xcode" version=">=2.0.0"></engine>-->
     <!-- needed for gradleReference support -->
   </engines>
   <!-- JavaScrip Library Sources -->
